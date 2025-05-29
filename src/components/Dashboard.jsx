@@ -12,7 +12,8 @@ const Card = ({ label, count, bg }) => {
                     <span className="text-2xl font-semibold">{count}</span>
                     <span className="text-sm text-gray-400">{"110 last month"}</span>
                 </div>
-                <div className={`w-10 h-10 rounded-full flex items-center justify-center text-white ${bg}`}>
+                <div className={`w-10 h-10 rounded-full flex items-center justify-center text-white ${bg}`}> 
+                    
                     {label.charAt(0)}
                 </div>
             </div>
